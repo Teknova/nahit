@@ -18,6 +18,8 @@ public class Run {
 		List<Person> result1=persons.stream()
 				.filter(x->"ali".equals(x.getName()) || "hurþit".equals(x.getName())).collect(Collectors.toList());
 		
+		
+		
 		result1.forEach(System.out::println);
 		
 		System.out.println(result1);
